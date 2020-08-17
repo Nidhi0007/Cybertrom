@@ -10,7 +10,7 @@ include "inc/nav.php";
                    
                     <div class="col-4">
                     <h4> Please Fill the details</h4>
-                    <form action="form.php" method="post" enctype="multipart/form-data">
+                    <form action="index.php" method="post" enctype="multipart/form-data">
 
                     <div class="form-group">
                     <label ><h4>    Name</h4></label>
