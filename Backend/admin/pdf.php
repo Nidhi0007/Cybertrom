@@ -15,11 +15,14 @@ $html='
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 </head>
 <body>
-    <p>'.$arr['name'].'</p>
+    <h4>Profile Pic:</h4><img src="../Images/'.$arr['image'].'">
+    <h4>Name:</h4>'.$arr['name'].'<br>
+    <h4>Age:</h4><p>'.$arr['age'].'</p><br>
+    <h4>Gender:</h4><p>'.$arr['gender'].'</p><br>
+    <h4>Contact Number:</h4><p>'.$arr['phone'].'</p><br>
+  
 </body>
 </html>
 
